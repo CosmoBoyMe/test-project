@@ -1,0 +1,16 @@
+.event {
+    max-width: 300px;
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    &__label {
+        align-self: flex-start;
+        padding: 15px 0;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}

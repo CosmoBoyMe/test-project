@@ -1,0 +1,17 @@
+.events-list {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    &__title {
+        margin: 10px    ;
+        color: skyblue;
+    }
+}
